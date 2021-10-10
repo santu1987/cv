@@ -1,0 +1,209 @@
+@font-face{
+  font-family: "Roboto-Light";
+  font-style: normal;
+  font-weight: normal;
+  src:url("../fonts/roboto/Roboto-Light.ttf") format('truetype');
+}
+
+body{
+	font-family: "Roboto-Light";
+}
+.box {
+    position: relative;
+    border-radius: 3px;
+    background: #ffffff;
+    border-top: 3px solid #d2d6de;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.box-widget {
+    border: none;
+    position: relative;
+}
+
+.widget-user .widget-user-header {
+    padding: 20px;
+    height: 220px;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+}
+
+.widget-user .widget-user-image {
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    margin-left: -65px;
+}
+
+.widget-user .box-footer {
+    padding-top: 30px;
+}
+
+.box-footer {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top: 1px solid #f4f4f4;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.img-circle {
+    margin-top: 20px;
+    border-radius: 15%;
+    width: 130px;
+    /*border: solid #0087be 3px;*/
+}
+
+.widget-user .widget-user-username {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 35px;
+    font-weight: 300;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+    text-align: center;
+    color: #000;
+}
+
+.fondo_gris {
+    background-color: #f4f4f4 !important;
+}
+
+.center_text {
+    text-align: center;
+}
+
+.big_padding {
+    padding: 60px 0;
+}
+
+.img-code{
+	background: url('../images/coding.jpg') center center!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    width: 100%!important;
+}
+
+.sector-titles{
+	background: #0087be;
+    padding: 5px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.row-cv{
+	padding: 5px;
+}
+
+.contenido{
+	padding: 5px;
+}
+
+.mb0{
+	margin-bottom:0px;
+}
+
+.padding0{
+	padding: 0px;
+}
+
+.padding5{
+	padding: 5px;
+}
+.padding20{
+    padding: 20px;
+}
+.parrafos{
+	text-align: justify;
+	font-size: 12pt;
+	padding:4px;
+}
+
+.parrafos2{
+	text-align: left;
+	font-size: 12pt;
+	padding:4px;
+}
+
+.parrafos-contacto, .parrafos-habilidades {
+    text-align: justify;
+    font-size: 12pt;
+}
+
+.img-uni1{
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+.img-uni2{
+	width: 60px;
+	float:left;
+}
+.pTop5{
+    padding-top: 15px;
+}
+.p-habilidades{
+    /*padding:0px!important;*/
+}
+.fecha, .titulo_proyectos{
+	font-weight: bold;
+	color: #009fe0;
+	padding: 0px!important;
+	margin-bottom: 0px!important;
+}
+
+.titulo-habilidades{
+	font-weight: bold!important;
+
+}
+
+/*.habilidades{
+	padding-top: 5px!important;
+}*/
+
+.redes{
+	margin-right: 5px;
+}
+
+.redes2{
+	margin-right: 8px;
+}
+
+.footer{
+	background: #0087be;
+	text-align: center;
+	color: #fff;
+	font-weight: bold;
+}
+
+.centrar{
+	margin: 0 auto!important;
+    display: flex!important;
+}
+
+.copyleft{
+	padding-top: 3px;
+    padding-right: 3px;
+}
+
+.contactos-contactos{
+	font-size: 11pt!important;
+}
+.text-justify{
+    text-align: justify!important;
+}
+/*-----*/
+@media (max-width:990px) {
+    .p-habilidades{
+        padding:20px!important;
+    }
+}
+@media (max-width:770px) {
+    .footer-inv{
+        display: none!important;
+    }
+}
+/*-----*/
